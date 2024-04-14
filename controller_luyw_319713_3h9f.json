@@ -1,0 +1,10 @@
+const findLargestNumber = numbers => Math.max(...numbers);
+90 / 1
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const variableName = getRandomNumber();
+
+false + false
+const sum = (a, b) => a + b;
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
